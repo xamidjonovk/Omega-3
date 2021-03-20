@@ -123,6 +123,7 @@ input {
 }
 
 input {
+    width: 100%;
     background-color: white;
     user-select: none;
     border: none;
