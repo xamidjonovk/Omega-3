@@ -188,13 +188,13 @@ select button:focus {
     align-items: center;
     margin-right: auto;
     margin-left: auto;
-    width: 1140px !important;
-    height: 680px;
+    width: 90%;
+    height: 50vw;
     background-color: #fff;
     background-image: url(../img/BG-2.png);
     background-repeat: no-repeat;
-    background-size: 1300px 800px;
-    background-position: -60px -15px;
+    background-size: 140% 140%;
+    background-position: -80px -15px;
 }
 
 .play:hover {
@@ -421,4 +421,10 @@ footer .nav {
 
 footer a:hover {
     text-decoration: underline;
+}
+
+@media(max-width:1200px) {
+    .container {
+        width: 90%;
+    }
 }
