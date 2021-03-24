@@ -249,23 +249,25 @@ hr {
 }
 
 .img-box {
+    width: 50%;
     background-color: #19191B;
 }
 
 .circle-3-1 {
-    width: 445px;
-    height: 445px;
-    position: relative;
-    left: 130px
+    width: 35%;
+    height: auto;
+    z-index: 0;
+    position: absolute;
+    left: 9%;
 }
 
 .circle-3-2 {
-    width: 252px;
-    height: 252px;
+    width: 40%;
+    height: auto;
     position: relative;
-    z-index: 2;
-    top: -540px;
-    left: 80px;
+    z-index: 1;
+    top: 6%;
+    left: -5%;
     /* background-blend-mode: multiply;
     filter: opacity(60%); */
     mix-blend-mode: multiply;
@@ -303,22 +305,26 @@ hr {
 
 .content-box-4 {
     margin: 40px auto;
-    width: 660px;
+    width: 50%
 }
 
 .img-box-4 {
+    width: 90%;
     display: flex;
     justify-content: center;
 }
 
 .left-img {
-    position: relative;
-    left: 30px;
+    width: 40%;
+    /* position: relative;
+    left: 30px; */
+    margin-right: 15px;
 }
 
 .right-img {
-    position: relative;
-    right: 35px;
+    width: 55%;
+    /* position: relative;
+    right: 35px; */
 }
 
 .s5 {
@@ -431,6 +437,8 @@ footer a:hover {
 
 @media(max-width:1042px) {
     form .submit {
-        padding: 10px 10px;
+        display: inline-block;
+        padding: 15px 15px;
+        width: 95%;
     }
 }
