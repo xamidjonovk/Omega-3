@@ -14,6 +14,8 @@ body {
     background-image: url(../img/Oval-1-3.png);
     background-repeat: no-repeat;
     background-position: -20px 600px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 ul,
@@ -439,6 +441,7 @@ footer a:hover {
 @media(max-width:1200px) {
     .container {
         width: 90%;
+        padding-left: 10px;
     }
     .question-item {
         justify-content: center !important;
@@ -478,13 +481,17 @@ footer a:hover {
         padding-left: 0 !important;
     }
     .s1,
-    .s3 {
+    .s3,
+    .s5 {
         margin-left: auto;
         margin-right: auto;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+    .content-1 {
+        width: 100%;
     }
     .img-box {
         display: none;
@@ -498,5 +505,10 @@ footer a:hover {
     }
     .questions-list {
         width: 90%;
+    }
+    @media (max-width: 505px) {
+        .header-nav {
+            display: none;
+        }
     }
 }
