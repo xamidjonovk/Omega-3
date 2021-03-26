@@ -418,7 +418,7 @@ footer .nav {
 
 .footer-list {
     display: flex;
-    margin-left: 200px;
+    margin-right: 10px;
 }
 
 .footer-link,
@@ -450,13 +450,32 @@ footer a:hover {
         justify-content: center;
         align-items: center;
     }
+    .feature-item {
+        width: 35%;
+    }
 }
 
 @media(max-width:1042px) {
+    .section-1 {
+        background-image: none;
+    }
     form .submit {
         display: inline-block;
         padding: 15px 15px;
         width: 95%;
+    }
+}
+
+@media (max-width:900px) {
+    .feature-item {
+        width: 90%;
+        align-items: center;
+        justify-content: center;
+        margin: 25px !important;
+    }
+    .feature-list {
+        justify-content: center;
+        align-items: center;
     }
 }
 
@@ -465,6 +484,13 @@ footer a:hover {
         width: 90%;
         align-items: center;
         justify-content: center;
+        margin: 10px;
+    }
+    .content-box-5,
+    .content-box-4,
+    .content-box-3 {
+        width: 90%;
+        text-align: justify;
     }
     .container {
         margin-left: auto;
@@ -500,7 +526,7 @@ footer a:hover {
     }
     .new-feature {
         display: inline-block;
-        width: 40%;
+        width: 90% !important;
         width: inherit;
         margin: 15px auto !important;
         text-align: center !important;
@@ -508,9 +534,21 @@ footer a:hover {
     .questions-list {
         width: 90%;
     }
-    @media (max-width: 515px) {
-        .header-nav {
-            display: none;
-        }
+    footer .nav .container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .s5 {
+        flex-direction: column-reverse;
+    }
+    .big-get {
+        float: center;
+    }
+}
+
+@media (max-width: 515px) {
+    .header-nav {
+        display: none;
     }
 }
