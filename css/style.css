@@ -467,6 +467,15 @@ footer a:hover {
 }
 
 @media (max-width:900px) {
+    .s7 {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
     .feature-item {
         width: 90%;
         align-items: center;
@@ -507,7 +516,8 @@ footer a:hover {
     }
     .s1,
     .s3,
-    .s5 {
+    .s5,
+    .s7 {
         margin-left: auto;
         margin-right: auto;
         display: flex;
@@ -521,8 +531,25 @@ footer a:hover {
     .content-1 {
         width: 100%;
     }
-    .img-box {
+    .circle-3-2 {
         display: none;
+    }
+    .circle-3-1 {
+        position: static !important;
+        width: 80%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .s3 .img-box {
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+        display: flex;
+        justify-content: center;
+    }
+    .s3 {
+        padding-top: 60px;
     }
     .new-feature {
         display: inline-block;
@@ -543,12 +570,24 @@ footer a:hover {
         flex-direction: column-reverse;
     }
     .big-get {
-        float: center;
+        text-align: center;
+        display: block;
+        margin: 10px auto;
     }
 }
 
 @media (max-width: 515px) {
-    .header-nav {
+    .header-nav .nav-list {
         display: none;
+    }
+    .form-1 {
+        width: 97%;
+    }
+    .header-nav .get {
+        color: transparent;
+        width: 70px;
+        height: 40px;
+        background-color: rgb(76, 57, 245);
+        border: 4px outset rgb(76, 57, 245);
     }
 }
