@@ -251,7 +251,8 @@
         .s3 {
             display: flex;
             justify-content: space-between;
-            padding-top: 170px;
+            padding-top: 70px;
+            padding-bottom: 70px;
         }
         
         .img-box {
@@ -444,6 +445,10 @@
             padding-bottom: 40px;
         }
         
+        .section-5 {
+            padding-bottom: 65px !important;
+        }
+        
         @media(max-width:1300px) {
             .section-1 {
                 background: none;
@@ -587,6 +592,7 @@
                 width: inherit;
                 margin: 15px auto !important;
                 text-align: center !important;
+                margin-bottom: 30px !important;
             }
             .questions-list {
                 width: 90%;
