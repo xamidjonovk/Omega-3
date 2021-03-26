@@ -503,6 +503,9 @@
             .section-7 {
                 background-image: none;
             }
+            body {
+                background-image: none;
+            }
         }
         
         @media(max-width:826px) {
