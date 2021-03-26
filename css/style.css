@@ -436,7 +436,20 @@ footer a:hover {
     text-decoration: underline;
 }
 
+.content-box-3 {
+    padding-bottom: 40px;
+}
+
+@media(max-width:1300px) {
+    .section-1 {
+        background: none;
+    }
+}
+
 @media(max-width:1200px) {
+    .section-1 {
+        background: none;
+    }
     .container {
         width: 90%;
         padding-left: 10px;
