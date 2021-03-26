@@ -42,6 +42,10 @@
             margin-top: 20px;
         }
         
+        .menu {
+            display: none;
+        }
+        
         .nav .container {
             display: flex;
             justify-content: space-between;
@@ -610,7 +614,12 @@
                 width: 100%;
             }
             .header-nav .get {
-                color: transparent;
+                display: none;
+            }
+            .menu {
+                display: block;
+                color: white;
+                outline: none;
                 width: 56px;
                 height: 40px;
                 background-color: rgb(87, 70, 243);
