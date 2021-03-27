@@ -448,6 +448,33 @@
         .section-5 {
             padding-bottom: 65px !important;
         }
+
+        .cellphone{
+            width: 70px;
+            height: 70px;
+            position:fixed;
+            bottom: 15px;
+            right:15px;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+            animation-duration: .5s;
+            animation-name:rotating;
+            animation-timing-function: ease;
+        }
+        @keyframes rotating{
+            0%{
+                transform:rotate(0deg) scale(0.95);
+                
+            }
+            50%{
+                transform:scale(1.2);
+               
+            }
+            100%{
+                transform:rotate(30deg) scale(1.2);
+               
+            }
+        }
         
         @media(max-width:1300px) {
             .section-1 {
@@ -520,7 +547,7 @@
         @media(max-width:826px) {
             .play{
                 transform: translate(50%,25%);
-                width: 50%;
+                width: 0%;
                 height:auto;
             }
             .feature-list {
